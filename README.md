@@ -1,4 +1,4 @@
-# zFlicker Photos Android App
+# zFlickr Photos Android App
 
 ## Tech stack
 
