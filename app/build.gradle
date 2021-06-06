@@ -46,7 +46,7 @@ android {
 
         android.applicationVariants.all { variant ->
             variant.outputs.all {
-                outputFileName = "zFlicker Photos v${variant.versionName} [${variant.name.toUpperCase()}].apk"
+                outputFileName = "zFlickr Photos v${variant.versionName} [${variant.name.toUpperCase()}].apk"
             }
         }
     }

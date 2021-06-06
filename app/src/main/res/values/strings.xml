@@ -1,8 +1,8 @@
 <resources>
 
-    <string name="app_name">zFlicker Photos</string>
+    <string name="app_name">zFlickr Photos</string>
 
-    <string name="title_home">zFlicker Photos</string>
+    <string name="title_home">zFlickr Photos</string>
 
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
@@ -38,6 +38,6 @@
 
     <string name="msg_no_internet_1">Oops, no active internet connection.</string>
     <string name="msg_airplane_mode_is_turned_on">You have turned on the airplane mode.</string>
-    <string name="msg_photos_loaded">Flicker photos fetched.</string>
+    <string name="msg_photos_loaded">Flickr photos fetched.</string>
 
 </resources>

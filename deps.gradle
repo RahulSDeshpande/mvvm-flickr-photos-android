@@ -120,7 +120,7 @@ deps.viewpager2 = viewpager2
 ext.deps = deps
 
 def build_versions = [:]
-build_versions.applicationId = "com.rahulografy.zflickerphotos"
+build_versions.applicationId = "com.rahulografy.zflickrphotos"
 build_versions.min_sdk = 21
 build_versions.target_sdk = 28
 build_versions.versionCode = 1

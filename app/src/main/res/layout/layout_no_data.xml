@@ -18,7 +18,7 @@
             android:layout_gravity="center"
             android:layout_margin="@dimen/space_normal"
             android:adjustViewBounds="true"
-            app:srcCompat="@drawable/flicker_logo" />
+            app:srcCompat="@drawable/flickr_logo" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvNoData"

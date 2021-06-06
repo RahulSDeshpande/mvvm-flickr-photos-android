@@ -7,15 +7,15 @@
 
         <variable
             name="viewModel"
-            type="com.rahulografy.zflickerphotos.ui.main.photos.fragment.PhotosFragmentViewModel" />
+            type="com.rahulografy.zflickrphotos.ui.main.photos.fragment.PhotosFragmentViewModel" />
 
         <variable
             name="photoAdapter"
-            type="com.rahulografy.zflickerphotos.ui.main.photos.adapter.PhotoAdapter" />
+            type="com.rahulografy.zflickrphotos.ui.main.photos.adapter.PhotoAdapter" />
 
     </data>
 
-    <com.rahulografy.zflickerphotos.ui.component.view.SwipeRefreshLayout2
+    <com.rahulografy.zflickrphotos.ui.component.view.SwipeRefreshLayout2
         android:id="@+id/srlPhotos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -45,6 +45,6 @@
 
         </FrameLayout>
 
-    </com.rahulografy.zflickerphotos.ui.component.view.SwipeRefreshLayout2>
+    </com.rahulografy.zflickrphotos.ui.component.view.SwipeRefreshLayout2>
 
 </layout>
