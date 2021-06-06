@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="photo"
+            type="com.rahulografy.zflickerphotos.data.source.remote.photos.model.Photo" />
+
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_normal"
+        android:layout_marginTop="@dimen/space_small"
+        android:layout_marginEnd="@dimen/space_normal"
+        android:layout_marginBottom="@dimen/space_small"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true">
+
+        <FrameLayout
+            android:id="@+id/flPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#10000000"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:photo="@{photo}"
+                tools:src="@drawable/flicker_logo" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/product_info_bg_gradient_end"
+                android:ellipsize="end"
+                android:fontFamily="@font/sans_bold"
+                android:maxLines="1"
+                android:paddingStart="@dimen/space_normal"
+                android:paddingTop="@dimen/space_small"
+                android:paddingEnd="@dimen/space_normal"
+                android:paddingBottom="@dimen/space_small"
+                android:text="@{photo.title}"
+                android:textColor="@color/default_text_color_white"
+                android:textSize="@dimen/text_xlarge"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="Photo title" />
+
+        </FrameLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</layout>
