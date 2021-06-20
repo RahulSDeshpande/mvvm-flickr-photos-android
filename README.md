@@ -1,4 +1,4 @@
-# zFlickr Photos Android App
+# MVVM zFlickr Photos Android App
 
 ## Tech stack
 
